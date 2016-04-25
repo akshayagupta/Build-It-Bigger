@@ -37,9 +37,4 @@ public class MainActivityFragment extends Fragment {
     }
 
 
-    public void tellJoke()
-    {
-        Joker joker =  new Joker();
-        Toast.makeText(getActivity() , joker.getJoke() ,  Toast.LENGTH_LONG).show();
-    }
 }
