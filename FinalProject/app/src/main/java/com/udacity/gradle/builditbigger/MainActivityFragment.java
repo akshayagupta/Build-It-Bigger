@@ -6,8 +6,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.widget.Toast;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.udacity.gradle.jokes.Joker;
 
 
 /**
@@ -32,5 +34,12 @@ public class MainActivityFragment extends Fragment {
                 .build();
         mAdView.loadAd(adRequest);
         return root;
+    }
+
+
+    public void tellJoke()
+    {
+        Joker joker =  new Joker();
+        Toast.makeText(getActivity() , joker.getJoke() ,  Toast.LENGTH_LONG).show();
     }
 }
