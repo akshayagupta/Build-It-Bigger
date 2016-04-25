@@ -9,3 +9,4 @@ jokeactivity/build/
 javaJokes/build/
 backend/build/
 *.iml/
+app/.idea
