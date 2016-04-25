@@ -1,12 +1,16 @@
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
+.idea/
 build/
-/captures
-jokeactivity/build/
-javaJokes/build/
-backend/build/
-*.iml/
-app/.idea
+gradle/
+.gradle/
+local.properties
+*.iml
+bin/
+gen/
+out/
+# built application files
+*.apk
+*.ap_
+
+*~
+
+
