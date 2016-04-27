@@ -1,5 +1,9 @@
 .idea/
+app/.idea/
 build/
+backend/build/
+javaJokes/build
+jokeactivity/build
 gradle/
 .gradle/
 local.properties
