@@ -1,6 +1,12 @@
+workspace.xml
 .idea/
 .gradle/
 build/
 *.iml
 local.properties
-app/.idea/workspace.xml
+
+# built application files
+*.apk
+*.ap_
+
+*~
