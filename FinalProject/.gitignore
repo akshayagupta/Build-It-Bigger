@@ -1,21 +1,6 @@
 .idea/
-app/.idea/
-build/
-backend/build/
-javaJokes/build
-jokeactivity/build
-gradle/
 .gradle/
-local.properties
+build/
 *.iml
-bin/
-gen/
-out/
-# built application files
-*.apk
-*.ap_
-*.log
-
-*~
-
-
+local.properties
+app/.idea/workspace.xml
